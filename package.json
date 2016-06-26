@@ -15,11 +15,14 @@
   },
   "scripts": {
     "start": "node index.js",
-    "test": "test"
+    "test": "mocha --reporter spec",
+    "test:watch": "mocha --reporter spec --watch"
   },
   "author": "Xavi Fuentes <xavifuefer@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "chai": "^3.5.0",
     "eslint": "^2.13.1",
+    "mocha": "^2.5.3"
   }
 }
