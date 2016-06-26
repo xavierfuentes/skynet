@@ -1,0 +1,25 @@
+{
+  "name": "skynet",
+  "version": "0.0.0",
+  "description": "Attempt to create an AI",
+  "main": "index.js",
+  "engines": {
+    "node" : ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xavifuefer/skynet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xavifuefer/skynet/issues"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "test"
+  },
+  "author": "Xavi Fuentes <xavifuefer@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^2.13.1",
+  }
+}
